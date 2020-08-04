@@ -1,0 +1,326 @@
+/* gris oscuro = #1d252c
+gris claro = #626262
+background gris = #1b2127
+celeste = #026fff*/
+
+body {
+   font-family: "Source Sans Pro", sans-serif;
+   margin: 0px;
+}
+
+.header {
+   background-color: #1b2127;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center;
+}
+
+.menu {
+   height: inherit;
+}
+
+.header ol {
+   display: flex;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   height: inherit;
+}
+
+.header ol li {
+   height: inherit;
+}
+
+.header a {
+   color: white;
+   text-decoration: none;
+   height: inherit;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+}
+
+.logo {
+   margin: 0px;
+}
+
+.hero {
+   height: 300px;
+   /* background-image: url("../images/hero.jpg"); */
+   background-color: #1b2127;
+   /* background-size: 500px 300px; */
+   /* background-repeat: no-repeat; */
+   /* background-position-x: right; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero-image{
+   object-fit: cover;
+}
+
+h1 {
+   font-size: 40px;
+   line-height: 1.5;
+   letter-spacing: -0.2px;
+   color: white;
+   margin: 0;
+   /* text-transform: uppercase; Transforma el texto como a mayusculas, minusculas, etc
+   text-decoration: line-through;  Decora el texto con una linea debajo, arriba, en medio, etc*/
+}
+
+h1 strong {
+   color: #026fff;
+}
+
+footer a{
+   color: white;
+}
+
+h2{
+   color: #026fff;
+   text-transform: uppercase;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+   font-size: 24px;
+   margin-bottom: 35px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Fjalla One", sans-serif;
+   font-weight: normal;
+   /* font-style: italic; */
+}
+
+.portfolio {
+   background-color: #fafafa;
+   padding: 20px;
+}
+
+/* .portfolio h2 {
+   margin: 0px;
+} */
+
+.project {
+   /* border-top: 10px solid red;
+   border-right: 10px solid green;
+   border-left: 10px solid orange;
+   border-bottom: 10px solid pink; */
+   /* border-color: red;
+   border-width: 15px;
+   border-style: solid; */
+   border: 1px solid gray;
+   border-radius: 10px;
+   /* margin: 10px; */
+   margin-bottom: 15px;
+   padding: 20px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.project-details {
+   width: 500px;
+   /* display: inline-block; */
+}
+
+.project-title{
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+
+.project-course{
+   margin: 10px 0;
+}
+
+.project-date{
+   margin: 10px 0;
+}
+
+.project-url{
+   margin: 10px 0;
+}
+
+.project-description{
+   font-size: 20px;
+}
+
+.project strong{
+   font-family: 'Fjalla One', sans-serif;
+}
+
+.project-imageContainer {
+   width: 500px;
+   margin: 0;
+   /* display: inline-block; */
+}
+
+/* .flexbox{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+} */
+
+/* .box{
+   width: 200px;
+   height: 200px;
+   margin: 20px;
+   border: 1px solid red;
+   flex-shrink: 0;
+} */
+
+.event{
+   margin: 10px;
+   border-radius: 10px;
+   width: 480px;
+   overflow: hidden;
+   flex-shrink: 0;
+   background-color: #f4fbff;
+}
+
+.colorexp{
+   background-color: #fafafa;
+   margin: 0;
+   padding: 20px 0px 35px 0px;
+}
+
+.event-list-title{
+   margin-left: 10px;
+}
+
+.event-list{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #fafafa;
+}
+
+.event-imageContainer{
+   margin: 0;
+}
+
+.event-image{
+   width: 480px;
+   height: 200px;
+   object-fit: cover;
+}
+
+.event-detail{
+   margin: 20px 40px;
+   margin-top: -40px;
+   background-color: white;
+   position: relative;
+   padding: 20px;
+   text-align: center;
+}
+
+.event-description{
+   text-align: left;
+}
+
+.event-url{
+   border: 1px solid #026fff;
+   padding: 5px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   color: #026fff;
+}
+
+.contact{
+    background-color: #026fff;
+    color: white;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between
+}
+
+.social-link{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-size: 50px 50px;
+   margin: 0 15px;
+}
+
+.social-link.twitter{
+   background-image: url('./images/twitter.svg');
+}
+
+.social-link.facebook{
+   background-image: url('./images/facebook.svg');
+}
+
+.social-link.github{
+   background-image: url('./images/github.svg');
+}
+
+.social-link.instagram{
+   background-image: url('./images/instagram.svg');
+}
+
+.form-email h3{
+   margin-top: 0;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-email input{
+   border-color: gray;
+   border-style: solid;
+   border-radius: 5px;
+   padding: 10px 20px 10px 25px;
+   background-image: url('./images/envelope.svg');
+   background-size: 15px 15px;
+   background-repeat: no-repeat;
+   background-position-y: center;
+   background-position-x: 5px;
+}
+
+.form-email button{
+   display: block;
+   margin-top: 10px;
+   background: transparent;
+   color: white;
+   padding: 10px 0;
+   border-radius: 5px;
+   width: 100px;
+   border-color: white;
+   border-style: solid;
+}
+
+.footer{
+   color: white;
+   background-color: #1b2127;
+   display: flex;
+   align-items: center;
+}
+
+.footer img{
+   vertical-align: middle;
+}
+
+.footer a{
+   color: white;
+}
+
+.container{
+   width: 1000px;
+   margin: 0 auto;
+   display: inherit;
+   justify-content: inherit;
+   align-items: inherit;
+   height: inherit;
+   flex-wrap: inherit;
+}
+
